@@ -1,0 +1,131 @@
+@media all and (max-width: 991px){
+	.header-icon{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 12px;
+		float: inherit;
+	}
+	.contact-ful {
+		border: none !important;
+	}
+
+	.header-logo{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 12px;
+		float: inherit;
+		overflow: inherit;
+	}
+	.header-sarch{
+		width: 100%;
+		text-align: center;
+		position: relative;
+		overflow: inherit;
+		padding-top: 8px
+	}
+	.header-sarch form{
+		float: inherit;
+	}
+	.header-sarch input{
+		width: 20%;
+		float: inherit !important;
+	}
+	.header-sarch button{
+		right: 38%;
+	}
+
+	.header-menu ul li a{
+		display: inline-block;
+		padding-top: 0px;
+	}
+	.articles-headding h1{
+		text-align: center;
+		padding: 0px 0px
+	}
+	.articles-headding ul{
+		display: none;
+	}
+	.articles-single{
+		width: 47.8%;
+		margin:1% !important;
+		margin-top:50px !important;
+
+
+	}
+	.contact-single{
+		width: 47.8% !important;
+		border: 1px solid #DDD;
+		margin: 1%;
+		padding-top: 38px;
+		padding-bottom: 45px;
+
+	}
+	.contact-single:last-child {
+		border-right: 1px solid #ddd;
+	}
+	.contact-single {
+		width:50% !important;
+		float:none !important;
+		margin:20px auto !important;
+	}
+	
+	
+}
+@media all and (max-width:825px){
+	.articles-single{
+		width:80% !important;
+		float: none !important;
+		margin:0 auto !important;
+		margin-top:50px !important;
+	
+	}
+	.articles-single:last-child{
+		margin-bottom:60px !important;
+	}
+}
+@media all and (max-width:767px){
+	.mobile-menu{
+		display:block;
+		margin-bottom:13px;
+	}
+	.header-menu ul {
+		display:none;
+	}
+	.header-menu ul{
+		margin-bottom: 22px;
+	}
+	.header-menu ul li{
+		display: inherit;
+	}
+	.header-menu ul li a{
+		display: inline-block;
+	}
+	.articles-single:first-child{
+		margin-left: 1%;
+	}
+	.articles-single:last-child{
+		margin-right: 0%;
+	}
+	.contact-area,{
+		padding-top: 30px;
+	}
+	.contact-ful{
+		padding-bottom: 30px;
+	}
+	.contact-top p{
+		width: 80%;
+	}
+
+}
+
+@media all and (min-width:767px){
+	.header-menu ul {
+		display:block !important;
+	}
+}
+
+
+
+
+
+
